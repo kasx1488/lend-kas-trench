@@ -1,12 +1,3 @@
-// ── CURSOR
-  const cursor = document.getElementById('cursor');
-  const glow = document.getElementById('cursor-glow');
-  document.addEventListener('mousemove', e => {
-    cursor.style.left = (e.clientX) + 'px';
-    cursor.style.top = (e.clientY) + 'px';
-    glow.style.left = e.clientX + 'px';
-    glow.style.top = e.clientY + 'px';
-  });
 
   // ── COUNTDOWN
   // Логика: таймер 3 часа.
